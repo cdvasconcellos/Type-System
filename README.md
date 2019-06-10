@@ -1,6 +1,6 @@
 # Type-System
 
-## Exemplos para disciplina: Sistemas de Tipos para Linguagens de Programação
+## Exemplos para disciplina de Sistemas de Tipos para Linguagens de Programação
 
 ### __Lambda__ - Inferência de tipos: cálculo Lambda simplesmente tipado. 
 A função main irá solicitar um expressão lambda com a seguinte sintáxe:
