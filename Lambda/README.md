@@ -1,1 +1,0 @@
-#Lambda Cálculo Simplesmente Tipado
