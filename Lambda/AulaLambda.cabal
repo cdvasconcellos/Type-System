@@ -1,0 +1,25 @@
+cabal-version:      3.0
+name:               AulaLambda
+version:            0.1.0.0
+-- synopsis:
+-- description:
+license:            MIT
+license-file:       LICENSE
+author:             Cristiano Vasconcellos
+maintainer:         cristiano.vasconcellos@udesc.br
+-- copyright:
+build-type:         Simple
+-- extra-doc-files:    CHANGELOG.md
+-- extra-source-files:
+
+common warnings
+    -- ghc-options: -Wall
+
+executable AulaLambda
+    import:           warnings
+    main-is:          AulaLambda.hs
+    other-modules:    Type
+    -- other-extensions:
+    build-depends:    base ^>=4.16.4.0, parsec >= 3.1.15.0
+    hs-source-dirs:   .
+    default-language: Haskell2010

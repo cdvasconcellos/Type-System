@@ -24,7 +24,7 @@ instance Applicative TI where
    TI fs <*> TI vs = TI (\e -> let (f, e') = fs e; (a, e'') = vs e' in (f a, e''))              
 
 instance Monad TI where 
-   return x = TI (\e -> (x, e))
+--   return x = TI (\e -> (x, e))
    TI m >>= f  = TI (\e -> let (a, e') = m e; TI fa = f a in fa e')
 
 freshVar :: TI SimpleType
